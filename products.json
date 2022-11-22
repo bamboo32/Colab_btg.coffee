@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Kapeng Barako",
+        "price" : "50.25",
+        "imgSrc" : "src/images/flavor1.jpg"
+    },
+    {
+        "name" : "Mocha",
+        "price" : "102.00",
+        "imgSrc" : "src/images/flavor2.jpg"
+    },
+    {
+        "name" : "Talisay",
+        "price" : "15.00",
+        "imgSrc" : "src/images/flavor3.jpg"
+    },
+    {
+        "name" : "Cavite Coffee",
+        "price" : "23.75",
+        "imgSrc" : "src/images/flavor4.jpg"
+    }
+]

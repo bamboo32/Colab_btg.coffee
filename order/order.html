@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colab_Order</title>
+	<link rel="stylesheet" type="text/css" href="order.css">
+</head>
+<body>
+
+	<div class="info-group">
+		<label for="country" class="country-text">Country</label>
+		<select id="country" name="country">
+			<option value="philippines">Philippines</option>
+		</select>
+
+		<form>
+			<input type="text" id="fname" required>
+			<label for="fname">First Name</label>
+		</form>
+
+		<form>
+			<input type="text" id="lname" required>
+			<label for="lname">Last Name</label>
+		</form>
+
+		<form>
+			<input type="email" id="email" required>
+			<label for="email">Email Account</label>
+		</form>
+
+		<form>
+			<input type="text" id="addr" required>
+			<label for="addr">Address</label>
+		</form>
+
+		<form>
+			<input type="text" id="apartment" required>
+			<label for="apartment">Apartment (optional)</label>
+		</form>
+
+		<form>
+			<input type="number" id="pcode" required pattern="[1-4]">
+			<label for="pcode">Postal Code</label>
+		</form>
+
+		<form>
+			<input type="text" id="city" required>
+			<label for="city">City</label>
+		</form>
+
+		<label for="region" class="region-text">Region</label>
+		<select id="region" name="region">
+			<option value="batangas">Batangas</option>
+			<option value="cavite">Cavite</option>
+			<option value="laguna">Laguna</option>
+		</select>
+
+		<form>s
+			<input type="number" id="pnumber" required>
+			<label for="pnumber">Phone Number</label>
+		</form>
+
+		<button type="order">Order</button>
+	</div>
+
+</body>
+</html>
